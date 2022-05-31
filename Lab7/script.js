@@ -93,7 +93,7 @@ function triangle(value1, type1, value2, type2){
         a=value1;
         alpha=value2;
         beta=90-alpha;
-        c=a/Math.sin(DegToRad(alpa));
+        c=a/Math.sin(DegToRad(alpha));
         b=Math.sqrt(c*c-a*a);
     }
     else if(type1 =="opposite angle" && type2 == "leg" ){
@@ -103,7 +103,7 @@ function triangle(value1, type1, value2, type2){
         a=value2;
         alpha=value1;
         beta=90-alpha;
-        c = a/Math.sin(DegToRad(alpa));
+        c = a/Math.sin(DegToRad(alpha));
         
         b=Math.sqrt(c*c-a*a);
     }
